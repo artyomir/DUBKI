@@ -17,6 +17,7 @@ public:
 
     void StudReg(QString str);
 
+    bool CheckLog();
 
 private slots:
     void on_pushButton_clicked();
