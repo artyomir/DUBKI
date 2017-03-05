@@ -15,8 +15,16 @@ public:
     explicit Registration(QWidget *parent = 0);
     ~Registration();
 
+    void StudReg(QString str);
+
+
+private slots:
+    void on_pushButton_clicked();
+
 private:
     Ui::Registration *ui;
 };
+
+
 
 #endif // REGISTRATION_H

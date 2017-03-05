@@ -18,9 +18,11 @@ public:
     ~MainDubkiWindow();
 
 private slots:
-    void on_pushButton_3_clicked();
+    void on_buttonEnt_clicked();
 
-    void on_pushButton_4_clicked();
+    void on_buttonReg_clicked();
+
+    void VhodEnabled();
 
 private:
     Ui::MainDubkiWindow *ui;
