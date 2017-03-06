@@ -19,8 +19,11 @@ public:
 
     bool CheckLog();
 
+    bool CheckValid();
+
 private slots:
     void on_pushButton_clicked();
+    void RegEnabled();
 
 private:
     Ui::Registration *ui;
