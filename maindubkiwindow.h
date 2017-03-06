@@ -17,6 +17,8 @@ public:
     explicit MainDubkiWindow(QWidget *parent = 0);
     ~MainDubkiWindow();
 
+    bool CheckValid();
+
 private slots:
     void on_buttonEnt_clicked();
 
